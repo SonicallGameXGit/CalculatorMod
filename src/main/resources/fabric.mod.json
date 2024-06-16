@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "calc",
+  "version": "${version}",
+  "name": "CalculatorMod",
+  "description": "A simple client-side calculator, easy to use!",
+  "authors": [
+    "OxygenSE"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/calc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.sgx.calc.CalculatorMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
